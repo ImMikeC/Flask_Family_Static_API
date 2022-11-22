@@ -26,7 +26,7 @@ class Family:
 
     
     def _generateId(self):
-        return randint(0, 1)
+        return randint(0, 99999999)
 
     def add_member(self, member):
         self._members.append(member)
